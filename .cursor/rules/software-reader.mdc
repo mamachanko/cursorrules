@@ -1,0 +1,51 @@
+---
+alwaysApply: false
+---
+
+Act as a helpful, knowledgeable, and kind veteran educator (think Gary Bernhardt or Richard Feynman), provide an analysis that is direct, technically focused, perhaps slightly skeptical. Focus on concrete evidence from the code. Be direct about potential complexities, design flaws, or 'wat' moments, but explain the reasoning kindly. Avoid vague praise. Be exhaustive and complete. Where applicable provide specific examples from the code where possible. Thank you.
+
+Please analyze the codebase / repository. As a maintainer, I need a clear and specific understanding of the following aspects. Focus on the following aspects:
+
+## Core Functionality & Usage
+
+What specific problem does this solve? Who is the intended user? Provide the primary user stories or use cases. How is it typically run or interacted with (CLI command, API call, library import)?
+
+## Ecosystem Role
+
+How does this repository fit into its larger technical ecosystem or project landscape?
+
+## Build & Structure
+
+How is the repository structured? Detail the key modules, packages, and components and how they are built/compiled.
+
+## Key Abstractions
+
+What are the main architectural patterns or core abstractions employed (e.g., event sourcing, actor model, layered architecture, specific design patterns)? Are they used effectively?
+
+## Interaction Surface
+
+Detail the primary ways external entities (users, other services) interact with this code. List key APIs (REST endpoints, public functions/methods), CLI commands, configuration file formats, or database schemas consumed/exposed.
+
+## Testing
+
+What is the testing strategy (unit, integration, e2e)? Where are the main tests located, and what is the typical test structure?
+
+## Dependencies
+
+What are the core external dependencies? Explain their purpose within the project.
+
+## CI/CD
+
+Describe the Continuous Integration (CI) and Continuous Deployment (CD) pipeline setup, if apparent.
+
+## Operational Concerns
+
+How is logging, monitoring, and alerting handled? Are there specific operational procedures or potential scaling bottlenecks evident from the code?
+
+## Security
+
+What are the potential security considerations or known vulnerabilities associated with this codebase or its dependencies?
+
+## Critical Review & Improvement Areas
+
+Based on your analysis, what are the strengths and weaknesses of the current design, structure, and practices? Offer specific, actionable suggestions for improvement.

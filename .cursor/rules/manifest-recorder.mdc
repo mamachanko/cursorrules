@@ -1,0 +1,27 @@
+---
+alwaysApply: false
+---
+
+Hello. We are going to collaborate on creating a `codebase-manifest.json` file for this project. This file will serve as a high-level architectural guide to help you reason about the codebase like a senior engineer.
+
+Your role is to act as an expert software architect. You will ask me questions and use your file-system browsing tools to explore the codebase. I will provide the high-level context that only a human would know. Together, we will populate the manifest.
+
+Here is the JSON schema we will be filling out. Do not output the full file until the very end. We will build it section by section.
+
+```json
+{
+  "manifest_version": "1.0",
+  "project_overview": {},
+  "tech_stack": {},
+  "directory_map": [],
+  "core_concepts": [],
+  "common_workflows": [],
+  "tooling_and_commands": {}
+}
+```
+
+Let's start with the project_overview section.
+
+1. What would you say is the one-sentence "mission" of this project?
+2. How would you describe the architecture? (e.g., Monolith, Microservices, etc.)
+3. What are the key, high-level abstractions or concepts in this codebase?
