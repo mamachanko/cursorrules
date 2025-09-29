@@ -15,7 +15,7 @@ Adhere strictly to the following principles.
 
 ## Code and implementation
 
-- Before you start any implementation establish a baseline. You need to be sure that the codebase is in good shape and that any error, say compilation or test failures, are introduced by you. For example, make sure the project and tests compile. In a Java+Maven project you could run:
+- Before you start any implementation think if you need establish a baseline. It's not always needed when doing more trivial things, but when implementing something more substantial you need to be sure that the codebase is in good shape and that any error, say compilation or test failures, are introduced by you. For example, make sure the project and tests compile. In a Java+Maven project you could run:
 
    ```bash
    ./mvnw clean compile test-compile --settings settings.xml -DskipTests -Dmaven.javadoc.skip=true
